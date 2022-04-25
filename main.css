@@ -1,0 +1,307 @@
+body{
+    margin: 0;
+    font-family:monospace
+}
+
+.main{
+    background-color: #242424;
+    box-sizing: border-box;
+    word-break: break-word;
+}
+
+a{
+	color:#ff5b0f;
+}
+
+h1{
+ color: #ffffff;
+ font-size: 48px;
+}
+
+h2{
+ color: #ffffff;
+ font-size: 40px;
+}
+
+h3{
+ color: #ffffff;
+ font-size: 28px;
+}
+
+.header-h3{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.about{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+}
+
+.about-me{
+    padding:35px;
+    margin-top: 45px;
+    background-color: #3b3b3b;
+    height: 95vh;
+}
+
+.whatami{
+    padding-left:35px;
+}
+
+.skills{
+    text-align: center;
+    padding:35px;
+}
+
+.header{
+    background-color:#242424;
+    width: 100%;
+    height: 5vh;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.status{
+    z-index: 1;
+    position: fixed;
+    width: 0%;
+    height: 5px;
+    background-color: #5CBFF0;
+}
+
+.content{
+    margin-top: 5vh;
+    position: relative;
+}
+
+.title{
+    text-align: center;
+}
+
+.interesed{
+    padding:35px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.typewriter{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.typewriter h2 {
+    width: fit-content;
+    color: #fff;
+    max-width: 100%;
+    overflow: hidden;
+    border-right: .15em solid #ff5b0f;
+    white-space: nowrap;
+    letter-spacing: .10em;
+    animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+from { width: 0 }
+to { width: 100% }
+}
+
+@keyframes blink-caret {
+from, to { border-color: transparent }
+50% { border-color: #ff5b0f }
+}
+
+@keyframes showme {
+from, to { visibility: hidden;}
+100% {visibility: hidden;}
+}
+
+.credits{
+    visibility: visible;
+    width: 100%;
+    text-align: left;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    color: #ffffff;
+    font-size: 28px;
+    animation: showme  4s;
+}
+
+.keys{
+    font-weight: bold;
+    color: #5CBFF0;
+    padding-left: 15px;
+}
+
+.ball-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    padding:35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ball{
+    width: 250px;
+    height:  250px;
+    background-color: #5CBFF0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.ball2{
+    width: 120px;
+    height: 120px;
+    background-color: #5CBFF0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.ball3{
+    width: 180px;
+    height:  180px;
+    background-color: #5CBFF0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.ball4{
+    width: 100px;
+    height:  100px;
+    background-color: #5CBFF0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.info{
+    text-align: right;
+    padding: 35px;
+}
+
+.work{
+    padding:35px;
+    background-color: #3b3b3b;
+
+}
+
+.work-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work-pl{
+    width: 30%;
+    margin-right: 3%;
+    margin-top: 15px;
+}
+
+.work-img{
+    width: 100%;
+    opacity: 0.6;
+}
+
+.contact{
+padding: 35px;
+text-align: center;
+} 
+
+@media only screen and (max-width: 500px) {
+    h2{
+        font-size: 18px;
+    }
+
+    h1{
+        font-size: 38px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+
+    .credits{
+        font-size: 18px;
+    }
+
+    .about{
+       height: 60vh;
+    }
+   
+    .about-me{
+       margin-top: 0;
+       height: 45vh;
+    }
+
+    .typewriter h2 {
+        font-size: 18px !important;
+    }
+   
+    .ball{
+       width: 125px;
+       height:  125px;
+       font-size: 18px;
+    }
+
+    .ball2{
+       width: 60px;
+       height:  60px;
+       font-size: 18px;
+    }
+
+    .ball3{
+       width: 90px;
+       height:  90px;
+       font-size: 18px;
+    }
+
+    .ball4{
+       width: 50px;
+       height:  50px;
+       font-size: 18px;
+    }
+
+    .work-pl{
+        width: 70%;
+    }
+   }
