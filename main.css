@@ -69,14 +69,6 @@ h3{
     flex-direction: column;
 }
 
-.status{
-    z-index: 1;
-    position: fixed;
-    width: 0%;
-    height: 5px;
-    background-color: #5CBFF0;
-}
-
 .content{
     margin-top: 5vh;
     position: relative;
@@ -86,7 +78,7 @@ h3{
     text-align: center;
 }
 
-.interesed{
+.interesed {
     padding:35px;
     width: 50%;
     margin-left: auto;
