@@ -153,55 +153,29 @@ from, to { visibility: hidden;}
 }
 
 .ball{
+    background-color: #5CBFF0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.big{
     width: 250px;
     height:  250px;
-    background-color: #5CBFF0;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 28px;
-    color: #ffffff;
-    margin-bottom: 15px;
 }
 
-.ball2{
-    width: 120px;
-    height: 120px;
-    background-color: #5CBFF0;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 28px;
-    color: #ffffff;
-    margin-bottom: 15px;
-}
-
-.ball3{
+.medium{
     width: 180px;
     height:  180px;
-    background-color: #5CBFF0;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 28px;
-    color: #ffffff;
-    margin-bottom: 15px;
 }
 
-.ball4{
-    width: 100px;
-    height:  100px;
-    background-color: #5CBFF0;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 28px;
-    color: #ffffff;
-    margin-bottom: 15px;
+.small{
+    width: 120px;
+    height: 120px;
 }
 
 .info{
